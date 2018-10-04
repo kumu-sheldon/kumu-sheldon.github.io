@@ -193,6 +193,10 @@ section.schedule {
   background: white; /*#778899;*/
   color: #143F9B; /*white;*/
 }
+section.highlights {
+  background: white; /*#778899;*/
+  color: #143F9B; /*white;*/
+}
 @media (max-width: 767px) {
   section {
     padding: 75px 0;
