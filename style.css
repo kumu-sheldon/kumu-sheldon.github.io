@@ -23,7 +23,12 @@ a.active {
 }
 h1,
 h2,
-h3,
+h3 {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #242424;
+}
 h4,
 h5,
 h6 {
@@ -70,7 +75,7 @@ hr.star-primary:after {
 header {
   text-align: center;
   background: white;
-  color: #143F9B; /*#778899;*/
+  color: #910201; /*#143F9B;*/ /*#778899;*/
 }
 header .container {
   padding-top: 100px;
@@ -104,7 +109,7 @@ header .intro-text .skills {
   }
 }
 .navbar-custom {
-  background: white;/*#2C3E50;*/
+  background: #242424; /*#2C3E50;*/
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -114,37 +119,37 @@ header .intro-text .skills {
   outline: none;
 }
 .navbar-custom .navbar-brand {
-  color: #143F9B; /*white;*/
+  color: #C3B517; /*#143F9B;*/ /*white;*/
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
-  color: #143F9B; /*white;*/
+  color: #C3B517; /*#143F9B;*/ /*white;*/
 }
 .navbar-custom .navbar-nav {
   letter-spacing: 1px;
 }
 .navbar-custom .navbar-nav li a {
-  color: #143F9B; /*white;*/
+  color: #C3B517; /*#143F9B;*/ /*white;*/
 }
 .navbar-custom .navbar-nav li a:hover {
-  color: #910201; /*#778899;*/
+  color: #C3B517; /*#910201;*/ /*#778899;*/
   outline: none;
 }
 .navbar-custom .navbar-nav li a:focus,
 .navbar-custom .navbar-nav li a:active {
-  color: #143F9B; /*white;*/
+  color: #C3B517; /*#143F9B;*/ /*white;*/
 }
 .navbar-custom .navbar-nav li.active a {
-  color: white;
-  background: #143F9B; /*#778899;*/
+  color: #242424; /*white;*/
+  background: #C3B517; /*#143F9B;*/ /*#778899;*/
 }
 .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
 .navbar-custom .navbar-nav li.active a:active {
-  color: white;
-  background: #143F9B; /*#778899;*/
+  color: #242424; /*white;*/
+  background: #C3B517; /*#143F9B;*/ /*#778899;*/
 }
 .navbar-custom .navbar-toggle {
   color: #143F9B; /*white;*/
@@ -154,9 +159,9 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #143F9B; /*#778899;*/
+  background-color: #C3B517; /*#778899;*/
   color: white;
-  border-color: #143F9B; /*#778899;*/
+  border-color: #C3B517; /*#778899;*/
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -187,19 +192,19 @@ section h2 {
 }
 section.success {
   background: white; /*#778899;*/
-  color: #143F9B; /*white;*/
+  color: #910201; /*#143F9B;*/ /*white;*/
 }
 section.registration {
   background: white; /*#778899;*/
-  color: #143F9B; /*white;*/
+  color: #910201; /*#143F9B;*/ /*white;*/
 }
 section.schedule {
   background: white; /*#778899;*/
-  color: #143F9B; /*white;*/
+  color: #910201; /*#143F9B;*/ /*white;*/
 }
 section.highlights {
   background: white; /*#778899;*/
-  color: #143F9B; /*white;*/
+  color: #910201; /*#143F9B;*/ /*white;*/
 }
 @media (max-width: 767px) {
   section {
@@ -336,7 +341,7 @@ footer .footer-below {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-  color: #778899;
+  color: #910201; /*#778899;*/
   background: white;
   border: solid 2px white;
 }
