@@ -113,7 +113,7 @@ header .intro-text .skills {
   background: #242424; /*#2C3E50;*/
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 500;
   border: none;
 }
 .navbar-custom a:focus {
